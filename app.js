@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 
 app.get('/test', function (req, res) {
   res.send({
-    "Output": "this is the testing page"
+    "Output": "this is the testing page!"
   });
 });
 
